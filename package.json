@@ -1,0 +1,24 @@
+{
+  "name": "react-highlight-text",
+  "version": "1.0.0",
+  "description": "A react highlight text component. Support case setting, global render setting and custom class config setting.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leeowenowen/js-react-highlight-text.git"
+  },
+  "keywords": [
+    "react",
+    "hightlight",
+    "text"
+  ],
+  "author": "leeowenowen@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leeowenowen/js-react-highlight-text/issues"
+  },
+  "homepage": "https://github.com/leeowenowen/js-react-highlight-text#readme"
+}

@@ -28,7 +28,7 @@ Above shows the display result of this component. Code is as belows
 }
 ```
 
-```js
+```javascript
        <div> 
         Highlight first: &nbsp;
         <HLText

@@ -16,7 +16,7 @@ A Hight light Text React Component
 
 Above shows the display result of this component. Code is as belows
 
-```
+```css
 .normalText {
   font-size: 12px;
   color:yellow;
@@ -28,7 +28,7 @@ Above shows the display result of this component. Code is as belows
 }
 ```
 
-```
+```js
        <div> 
         Highlight first: &nbsp;
         <HLText

@@ -2,29 +2,29 @@ import React from 'react';
 import './index.css'
 
 export default class HighlightText extends React.Component {
-  constructor() {
+  varructor() {
     super();
     this.instance = null;
   }
   addSpan() {
-    const {
+    var {
       className,
       highlightTextClsName,
       text,
       keyword,
     } = this.props;
-    const container = document.createElement('span');
+    var container = document.createElement('span');
     container.className = 'HighlightText_normal';
-    let highlightTextCls = 'HighlightText_highlight';
+    var highlightTextCls = 'HighlightText_highlight';
     if (highlightTextClsName) {
       highlightTextCls = [highlightTextCls, highlightTextClsName].join(' ');
     }
-    const spanHtml = text.replace(new RegExp(keyword, 'gi'), `<span class=${highlightTextCls}>$&</span>`);
+    var spanHtml = text.replace(new RegExp(keyword, 'gi'), '<span class=' + highlightTextCls + '>$&</span>');
     container.innerHTML = spanHtml;
     this.instance.appendChild(container);
   }
   removeSpan() {
-    const children = this.instance.childNodes;
+    var children = this.instance.childNodes;
     for (var i = 0; i < children.length; i++) {
       this.instance.removeChild(children[i]);
     }
@@ -39,10 +39,11 @@ export default class HighlightText extends React.Component {
     this.removeSpan();
     this.addSpan();
   }
+  updateRef(ele) {
+    this.instance = ele;
+  }
   render() {
-    return <div ref = {
-      el => (this.instance = el)
-    }
+    return <div ref = { this.updateRef.bind(this) }
     />;
   }
 }

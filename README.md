@@ -15,6 +15,19 @@ A Hight light Text React Component
 ![](https://github.com/leeowenowen/js-react-highlight-text/blob/master/wiki-res/highlightText.png?raw=true)
 
 Above shows the display result of this component. Code is as belows
+
+```
+.normalText {
+  font-size: 12px;
+  color:yellow;
+}
+.highlightText {
+  font-size: 18px;
+  color: red;
+  font-weight: bold;
+}
+```
+
 ```
        <div> 
         Highlight first: &nbsp;

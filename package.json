@@ -1,6 +1,6 @@
 {
   "name": "react-best-highlight-text",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "description": "A react highlight text component. Support case setting, global render setting and custom class config setting.",
   "main": "index.js",
   "scripts": {

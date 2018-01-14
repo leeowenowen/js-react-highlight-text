@@ -54,7 +54,7 @@ export default class HighlightText extends React.Component {
     this.instance = ele;
   }
   render() {
-    return <span ref = { this.updateRef.bind(this) }
-    />;
+    return (<span ref = { this.updateRef.bind(this) }
+  />);
   }
 }

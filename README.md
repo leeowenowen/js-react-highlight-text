@@ -13,6 +13,7 @@ A Hight light Text React Component
 
 ## Usage
 ![](https://github.com/leeowenowen/js-react-highlight-text/blob/master/wiki-res/highlightText.png?raw=true)
+
 Above shows the display result of this component. Code is as belows
 ```
        <div> 

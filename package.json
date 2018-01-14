@@ -1,14 +1,19 @@
 {
   "name": "react-best-highlight-text",
-  "version": "2.2.2",
+  "version": "2.2.6",
   "description": "A react highlight text component. Support case setting, global render setting and custom class config setting.",
   "main": "index.js",
   "scripts": {
+    "prepublish": "babel src/index.js -o index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/leeowenowen/js-react-highlight-text.git"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   },
   "keywords": [
     "react",
@@ -20,5 +25,12 @@
   "bugs": {
     "url": "https://github.com/leeowenowen/js-react-highlight-text/issues"
   },
-  "homepage": "https://github.com/leeowenowen/js-react-highlight-text#readme"
+  "homepage": "https://github.com/leeowenowen/js-react-highlight-text#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  }
 }
